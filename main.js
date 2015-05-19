@@ -9,8 +9,8 @@ window.requestAnimFrame = (function() {
 var canvas = document.getElementById('canvas'),
   ctx = canvas.getContext('2d');
 
-var width = 422,
-  height = 552;
+var width = 443,
+  height = 535;
 
 canvas.width = width;
 canvas.height = height;
@@ -20,7 +20,7 @@ var platforms = [],
   image = document.getElementById("sprite"),
   player, platformCount = 10,
   position = 0,
-  gravity = 0.1,
+  gravity = 0.2,
   animloop,
   flag = 0,
   menuloop, broken = 0,
